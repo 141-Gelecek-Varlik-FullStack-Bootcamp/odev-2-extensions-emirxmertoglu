@@ -1,4 +1,5 @@
 ﻿using System;
+using ExtensionMethods;
 
 namespace Week2
 {
@@ -6,7 +7,10 @@ namespace Week2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var dollar = 100;
+            var tl = 100;
+            Console.WriteLine(dollar.DollarToTL(13.30));
+            Console.WriteLine(tl.TLToDollar(0.076));
         }
     }
 }
