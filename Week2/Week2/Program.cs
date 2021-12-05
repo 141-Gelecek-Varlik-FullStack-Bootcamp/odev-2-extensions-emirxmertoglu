@@ -11,6 +11,7 @@ namespace Week2
             var tl = 100;
             Console.WriteLine(dollar.DollarToTL(13.30));
             Console.WriteLine(tl.TLToDollar(0.076));
+            Console.WriteLine(dollar.WhatIsTheType());
         }
     }
 }
